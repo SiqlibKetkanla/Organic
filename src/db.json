@@ -42,6 +42,25 @@
       "id": "e5cd",
       "email": "elyor8444@gmail.com",
       "password": "1234567890"
+    },
+    {
+      "id": "76c8",
+      "name": "emirhan",
+      "surname": "Ertan",
+      "email": "ertan.emirhan7788@gmail.com",
+      "password": "946187788"
+    },
+    {
+      "id": "58a5",
+      "email": "ertan.emirhan7788@gmail.com",
+      "password": "946187788"
+    },
+    {
+      "id": "1e19",
+      "name": "Jonka",
+      "surname": "emka",
+      "email": "ertan.emirhan.tur@gmail.com",
+      "password": "946187788"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
