@@ -1,10 +1,10 @@
 import React from 'react'
 import Header from '../components/Header'
-import bg from '../assets/background.jpg'
-import chel from '../assets/chel.jpg'
-import hand from '../assets/hand.png'
-import pod from '../assets/photo.jpg'
-import sea from '../assets/sea.png'
+import bg from '../assets/usmanov/background.jpg'
+import chel from '../assets/usmanov/chel.jpg'
+import hand from '../assets/usmanov/hand.png'
+import pod from '../assets/usmanov/photo.jpg'
+import sea from '../assets/usmanov/sea.png'
 // import Footer from '../components/Footer'
 
 

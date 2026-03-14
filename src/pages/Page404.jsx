@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../components/Header'
 import { useNavigate } from 'react-router-dom';
-import bg from '../assets/404bg.png'
+import bg from '../assets/usmanov/404bg.png'
 // import Footer from '../components/Footer';
 
 const Page404 = () => {
