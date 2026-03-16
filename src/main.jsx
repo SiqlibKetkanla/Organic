@@ -11,6 +11,8 @@ import Login from './pages/Login.jsx';
 import Register from './pages/Register.jsx';
 import ResetPassword from './pages/ResetPassword.jsx';
 import ProtectedRoute from './guard/ProtectedRoute.jsx';
+import ShopSingle from "./pages/ShopSingle.jsx";
+
 
 const router = createBrowserRouter([
   {
@@ -20,6 +22,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element:<Home />
+      },
+       {
+        path: "/shop/:id",
+        element: <ShopSingle />
       }
     ]
   },
