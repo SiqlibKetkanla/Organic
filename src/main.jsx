@@ -11,6 +11,8 @@ import Login from './pages/Login.jsx';
 import Register from './pages/Register.jsx';
 import ResetPassword from './pages/ResetPassword.jsx';
 import ProtectedRoute from './guard/ProtectedRoute.jsx';
+import Service from './pages/Service.jsx';
+import About from './pages/About.jsx';
 
 const router = createBrowserRouter([
   {
@@ -34,6 +36,14 @@ const router = createBrowserRouter([
   {
     path: "/forgot-password",
     element:<ResetPassword />
+  },
+  {
+    path: "/service",
+    element:<Service />
+  },
+  {
+    path: "/about",
+    element:<About />
   }
 ]);
 createRoot(document.getElementById('root')).render(
